@@ -1,7 +1,7 @@
 +++
 title = 'Insights from Our Recent Quarkus Workshop: Leveraging the Superheroes Demo'
 date = 2024-07-23
-draft = true
+draft = false
 +++
 
 On July 23, 2024, we had the pleasure of hosting a Quarkus workshop for one of our customers. The workshop provided an in-depth exploration of Quarkus, with a particular focus on the [Quarkus Superheroes demo](https://github.com/quarkusio/quarkus-super-heroes). The event was designed to cater to a wide range of experience levels among the participants, from those who were new to Quarkus to those already running production applications. Our goal was to cover both foundational topics and deeper, more complex aspects of Quarkus to ensure the content was engaging and valuable for everyone.
