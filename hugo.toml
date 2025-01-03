@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://gmodzelewski.github.io/blog/'
 languageCode = 'en-us'
 title = "Georg's OpenShift AppDev Blog"
 theme = 'papermod'

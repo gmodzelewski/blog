@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2024-08-13T06:05:23+02:00</lastmod>
+    <loc>https://gmodzelewski.github.io/blog/</loc>
+    <lastmod>2025-01-03T16:50:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-13T06:05:23+02:00</lastmod>
+    <loc>https://gmodzelewski.github.io/blog/posts/2025-01-03-news/</loc>
+    <lastmod>2025-01-03T16:50:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-13T06:05:23+02:00</lastmod>
+    <loc>https://gmodzelewski.github.io/blog/posts/</loc>
+    <lastmod>2025-01-03T16:50:30+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://gmodzelewski.github.io/blog/posts/2024-07-23-quarkus-workshop-at-rossmann/</loc>
+    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://gmodzelewski.github.io/blog/categories/</loc>
+  </url><url>
+    <loc>https://gmodzelewski.github.io/blog/tags/</loc>
   </url>
 </urlset>
