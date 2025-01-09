@@ -15,7 +15,7 @@
       <guid>http://localhost:1313/blog/posts/2025-01-09-news/</guid>
       <description>&lt;h2 id=&#34;cw2&#34;&gt;CW2&lt;/h2&gt;
 &lt;h3 id=&#34;things-to-add-to-cw1-2025---volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Things to add to CW1 2025 - Volkswagen data leak @38c3 2024 - Quarkus, Connectivity Link, ACS&lt;/h3&gt;
-&lt;p&gt;Link to previous article: /blog/posts/2025-01-03-news/#volksdaten&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/blog/posts/2025-01-03-news/#volksdaten&#34;&gt;Link to previous article&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gmodzelewski.github.io/blog/posts/2025-01-03-news/#volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Another link (if my blog article creation skills are not good enough :-D )&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Again, here is the recording from the 28c3 (in German): &lt;a href=&#34;https://streaming.media.ccc.de/38c3/relive/598&#34;&gt;https://streaming.media.ccc.de/38c3/relive/598&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A Red Hat colleague pointed out to me that in addition to the heap dump, there was another reason for the data leak at Volkswagen, namely the identity provider.&lt;/p&gt;</description>
