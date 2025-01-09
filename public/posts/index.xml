@@ -2,27 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Georg&#39;s OpenShift AppDev Blog</title>
-    <link>https://gmodzelewski.github.io/blog/posts/</link>
+    <link>http://localhost:1313/blog/posts/</link>
     <description>Recent content in Posts on Georg&#39;s OpenShift AppDev Blog</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 16:50:30 +0100</lastBuildDate>
-    <atom:link href="https://gmodzelewski.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jan 2025 11:00:48 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 01 09 News</title>
+      <link>http://localhost:1313/blog/posts/2025-01-09-news/</link>
+      <pubDate>Thu, 09 Jan 2025 11:00:48 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-01-09-news/</guid>
+      <description>&lt;h2 id=&#34;cw2&#34;&gt;CW2&lt;/h2&gt;
+&lt;h3 id=&#34;things-to-add-to-cw1-2025---volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Things to add to CW1 2025 - Volkswagen data leak @38c3 2024 - Quarkus, Connectivity Link, ACS&lt;/h3&gt;
+&lt;p&gt;Link to previous article: /blog/posts/2025-01-03-news/#volksdaten&lt;/p&gt;
+&lt;p&gt;Another link (if my blog article creation skills are not good enough :-D ): &lt;a href=&#34;https://gmodzelewski.github.io/blog/posts/2025-01-03-news/#volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;https://gmodzelewski.github.io/blog/posts/2025-01-03-news/#volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(Repost) Here is the recording (in German): &lt;a href=&#34;https://streaming.media.ccc.de/38c3/relive/598&#34;&gt;https://streaming.media.ccc.de/38c3/relive/598&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A Red Hat colleague pointed out to me that in addition to the heap dump, there was another reason for the data leak at Volkswagen, namely the identity provider.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2025 01 13 News</title>
+      <link>http://localhost:1313/blog/posts/2025-01-13-news/</link>
+      <pubDate>Thu, 09 Jan 2025 09:28:07 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-01-13-news/</guid>
+      <description>&lt;h2 id=&#34;cw3&#34;&gt;CW3&lt;/h2&gt;
+&lt;h3 id=&#34;things-to-add-to-cw1-2025---volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Things to add to CW1 2025 - Volkswagen data leak @38c3 2024 - Quarkus, Connectivity Link, ACS&lt;/h3&gt;
+&lt;p&gt;Link to previous article: /blog/posts/2025-01-03-news/#volksdaten&lt;/p&gt;
+&lt;p&gt;Another link (if my blog article creation skills are not good enough :-D ): &lt;a href=&#34;https://gmodzelewski.github.io/blog/posts/2025-01-03-news/#volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;https://gmodzelewski.github.io/blog/posts/2025-01-03-news/#volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(Repost) Here is the recording (in German): &lt;a href=&#34;https://streaming.media.ccc.de/38c3/relive/598&#34;&gt;https://streaming.media.ccc.de/38c3/relive/598&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My colleague Steffen Röcker pointed out to me that in addition to the heap dump, there was another reason for the data leak at Volkswagen, namely the identity provider.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>News - CW1</title>
-      <link>https://gmodzelewski.github.io/blog/posts/2025-01-03-news/</link>
+      <link>http://localhost:1313/blog/posts/2025-01-03-news/</link>
       <pubDate>Fri, 03 Jan 2025 16:50:30 +0100</pubDate>
-      <guid>https://gmodzelewski.github.io/blog/posts/2025-01-03-news/</guid>
+      <guid>http://localhost:1313/blog/posts/2025-01-03-news/</guid>
       <description>&lt;p&gt;New year new ideas. I thought it would be nice to write down some news I stumble upon and I think are worth sharing. Long story short, lets get to the news.&lt;/p&gt;
 &lt;h2 id=&#34;cw1&#34;&gt;CW1&lt;/h2&gt;
 &lt;h3 id=&#34;red-hat-developer-hub-breaking-changes-dynamic-plugins&#34;&gt;Red Hat Developer Hub breaking changes: dynamic plugins&lt;/h3&gt;
 &lt;p&gt;At the end of the year I saw that my own managed instance of Developer Hub was down. Of course, the culprit were some breaking changes and because I&amp;rsquo;m deploying the bleeding edge latest is greatest version which upgrades automatically.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Camel K PoC 4/4: Reading CSV from S3 and Writing to MQTT</title>
+      <link>http://localhost:1313/blog/posts/2024-08-06-camel-k-4/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/2024-08-06-camel-k-4/</guid>
+      <description>&lt;h2 id=&#34;reading-csv-from-s3-and-writing-to-mqtt&#34;&gt;Reading CSV from S3 and Writing to MQTT&lt;/h2&gt;
+&lt;p&gt;For the final blog post in this series, we&amp;rsquo;ll examine how Camel K can be used to read CSV files from an S3 bucket, convert the data to JSON, and send it to an MQTT topic. This builds on the concepts covered in the previous posts and further demonstrates Camel K’s flexibility.&lt;/p&gt;
+&lt;h3 id=&#34;infrastructure-setup&#34;&gt;Infrastructure Setup&lt;/h3&gt;
+&lt;p&gt;Similar to the previous post, the infrastructure includes:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Camel K PoC 3/4: Reading from PostgreSQL and Writing to MQTT</title>
+      <link>http://localhost:1313/blog/posts/2024-08-05-camel-k-3/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/2024-08-05-camel-k-3/</guid>
+      <description>&lt;h2 id=&#34;reading-xml-from-s3-and-writing-to-mqtt&#34;&gt;Reading XML from S3 and Writing to MQTT&lt;/h2&gt;
+&lt;p&gt;In today&amp;rsquo;s post, we’ll explore another powerful use case of Camel K: reading XML files from an S3 bucket, converting them to JSON, and publishing the data to an MQTT topic. This builds on our previous work with Camel K and demonstrates its versatility in handling various data formats and sources.&lt;/p&gt;
+&lt;h3 id=&#34;infrastructure-setup&#34;&gt;Infrastructure Setup&lt;/h3&gt;
+&lt;p&gt;The infrastructure for this use case involves:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Minio Instance&lt;/strong&gt;: Acting as the S3 bucket provider, with access credentials stored in a Kubernetes Secret.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AMQ Broker&lt;/strong&gt;: As in previous examples, credentials are stored in a Secret.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-solution&#34;&gt;The Solution&lt;/h3&gt;
+&lt;p&gt;Here’s how the solution works:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Camel K PoC 2/4: Reading from PostgreSQL and Writing to MQTT</title>
+      <link>http://localhost:1313/blog/posts/2024-08-02-camel-k-2/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/2024-08-02-camel-k-2/</guid>
+      <description>&lt;h2 id=&#34;reading-from-postgresql-and-writing-to-mqtt&#34;&gt;Reading from PostgreSQL and Writing to MQTT&lt;/h2&gt;
+&lt;p&gt;Continuing with our exploration of Camel K, today&amp;rsquo;s blog post will focus on a more advanced use case: reading entries from a PostgreSQL database, converting them to JSON, and writing them to an MQTT topic.&lt;/p&gt;
+&lt;h3 id=&#34;infrastructure-setup&#34;&gt;Infrastructure Setup&lt;/h3&gt;
+&lt;p&gt;This setup builds on the previous infrastructure with additional components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PostgreSQL Database&lt;/strong&gt;: Credentials are securely stored in a Kubernetes Secret.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AMQ Broker&lt;/strong&gt;: Deployed on the Kubernetes cluster, with access credentials stored in a Secret.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-solution&#34;&gt;The Solution&lt;/h3&gt;
+&lt;p&gt;The goal is to read entries from a PostgreSQL database, transform the data into JSON format, and publish the data to an MQTT topic. Additionally, processed entries are deleted from the database to prevent reprocessing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Camel K PoC 1/4: MQTT Receiver to Logs</title>
+      <link>http://localhost:1313/blog/posts/2024-08-01-camel-k-0/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/2024-08-01-camel-k-0/</guid>
+      <description>&lt;h1 id=&#34;camel-k-proof-of-concept-series&#34;&gt;Camel K Proof of Concept Series&lt;/h1&gt;
+&lt;p&gt;I am currently taking part in a proof of concept for Camel K (the kubernetes deployment solution of the Quarkus-based integration solution Camel) and have had some experiences that I would like to share in four blog posts describing partial solutions.&lt;/p&gt;
+&lt;p&gt;The basic version of the source code was created by my dear colleague Jean Nyilimbibi and &lt;a href=&#34;https://bitbucket.org/jnyilimbibi/camel-k-usecases&#34;&gt;published it open source here: https://bitbucket.org/jnyilimbibi/camel-k-usecases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I forked his git repository and restructured it so that all non-Camel-K solution software is managed in a helm chart.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Camel K PoC 1/4: MQTT Receiver to Logs</title>
+      <link>http://localhost:1313/blog/posts/2024-08-01-camel-k-1/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/2024-08-01-camel-k-1/</guid>
+      <description>&lt;h1 id=&#34;camel-k-proof-of-concept-series&#34;&gt;Camel K Proof of Concept Series&lt;/h1&gt;
+&lt;p&gt;I am currently taking part in a proof of concept for Camel K (the kubernetes deployment solution of the Quarkus-based integration solution Camel) and have had some experiences that I would like to share in four blog posts describing partial solutions.&lt;/p&gt;
+&lt;p&gt;The basic version of the source code was created by my dear colleague Jean Nyilimbibi and &lt;a href=&#34;https://bitbucket.org/jnyilimbibi/camel-k-usecases&#34;&gt;published it open source here: https://bitbucket.org/jnyilimbibi/camel-k-usecases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I forked his git repository and restructured it so that all non-Camel-K solution software is managed in a helm chart.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Insights from Our Recent Quarkus Workshop: Leveraging the Superheroes Demo</title>
-      <link>https://gmodzelewski.github.io/blog/posts/2024-07-23-quarkus-workshop-at-rossmann/</link>
+      <link>http://localhost:1313/blog/posts/2024-07-23-quarkus-workshop-at-rossmann/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://gmodzelewski.github.io/blog/posts/2024-07-23-quarkus-workshop-at-rossmann/</guid>
+      <guid>http://localhost:1313/blog/posts/2024-07-23-quarkus-workshop-at-rossmann/</guid>
       <description>&lt;p&gt;On July 23, 2024, we had the pleasure of hosting a Quarkus workshop for one of our customers. The workshop provided an in-depth exploration of Quarkus, with a particular focus on the &lt;a href=&#34;https://github.com/quarkusio/quarkus-super-heroes&#34;&gt;Quarkus Superheroes demo&lt;/a&gt;. The event was designed to cater to a wide range of experience levels among the participants, from those who were new to Quarkus to those already running production applications. Our goal was to cover both foundational topics and deeper, more complex aspects of Quarkus to ensure the content was engaging and valuable for everyone.&lt;/p&gt;</description>
     </item>
   </channel>
