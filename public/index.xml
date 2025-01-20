@@ -4,28 +4,43 @@
     <title>Georg&#39;s OpenShift AppDev Blog</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content on Georg&#39;s OpenShift AppDev Blog</description>
-    <generator>Hugo -- 0.139.3</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2025 11:00:48 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 12:01:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2025 01 09 News</title>
+      <title>News - CW4</title>
+      <link>http://localhost:1313/blog/posts/2025-01-24-news/</link>
+      <pubDate>Mon, 20 Jan 2025 12:01:07 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-01-24-news/</guid>
+      <description>&lt;h3 id=&#34;working-topics&#34;&gt;Working topics&lt;/h3&gt;
+&lt;h4 id=&#34;logging-quarkus-in-loki&#34;&gt;logging quarkus in loki&lt;/h4&gt;
+&lt;h3 id=&#34;openshift-ai-bei-zf&#34;&gt;openshift ai bei zf&lt;/h3&gt;
+&lt;h3 id=&#34;licensing-feature&#34;&gt;licensing feature&lt;/h3&gt;
+&lt;p&gt;petar schreiben wegen across
+joshua schreiben dass ich an den fragen arebite&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW3</title>
+      <link>http://localhost:1313/blog/posts/2025-01-13-news/</link>
+      <pubDate>Mon, 13 Jan 2025 09:28:07 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-01-13-news/</guid>
+      <description>&lt;h2 id=&#34;cw3&#34;&gt;CW3&lt;/h2&gt;
+&lt;h3 id=&#34;cpu-limits-und-requests-how-to-avoid-cpu-throttling&#34;&gt;CPU limits und requests, how to avoid CPU throttling&lt;/h3&gt;
+&lt;p&gt;If you look at the usual utilization of a kubernetes cluster, you can quickly see that a lot of resources are idling around. Nevertheless, you may receive a warning that the cluster&amp;rsquo;s resources are at their limit. How does this fit together?&lt;/p&gt;
+&lt;p&gt;The issue is non-optimized resource allocation. Resource limits help with budget control by preventing a single application from consuming more resources than allocated, which is critical in cloud environments where resources translate directly into costs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW2</title>
       <link>http://localhost:1313/blog/posts/2025-01-09-news/</link>
       <pubDate>Thu, 09 Jan 2025 11:00:48 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-09-news/</guid>
       <description>&lt;h2 id=&#34;cw2&#34;&gt;CW2&lt;/h2&gt;
 &lt;h3 id=&#34;things-to-add-to-cw1-2025---volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Things to add to CW1 2025 - Volkswagen data leak @38c3 2024 - Quarkus, Connectivity Link, ACS&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/blog/posts/2025-01-03-news/#volksdaten&#34;&gt;Link to previous article&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://gmodzelewski.github.io/blog/posts/2025-01-03-news/#volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Another link (if my blog article creation skills are not good enough :-D )&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Again, here is the recording from the 28c3 (in German): &lt;a href=&#34;https://streaming.media.ccc.de/38c3/relive/598&#34;&gt;https://streaming.media.ccc.de/38c3/relive/598&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A Red Hat colleague pointed out to me that in addition to the heap dump, there was another reason for the data leak at Volkswagen, namely the identity provider.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2025 01 13 News</title>
-      <link>http://localhost:1313/blog/posts/2025-01-13-news/</link>
-      <pubDate>Thu, 09 Jan 2025 09:28:07 +0100</pubDate>
-      <guid>http://localhost:1313/blog/posts/2025-01-13-news/</guid>
-      <description>&lt;h2 id=&#34;cw3&#34;&gt;CW3&lt;/h2&gt;</description>
+&lt;p&gt;A Red Hat colleague pointed out to me that in addition to the heap dump, there was another reason for the data leak at Volkswagen, namely the identity provider.&lt;/p&gt;
+&lt;p&gt;We don&amp;rsquo;t know exactly which one was used, so we took the use case and looked at whether it would also be possible with our product &lt;strong&gt;Keycloak&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>News - CW1</title>
