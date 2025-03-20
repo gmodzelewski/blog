@@ -4,26 +4,137 @@
     <title>Georg&#39;s OpenShift AppDev Blog</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content on Georg&#39;s OpenShift AppDev Blog</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2025 14:30:11 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 16:26:09 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>News - CW5</title>
+      <title>News - CW12 - Quarkus Meetup next week, Neural Magic and Red Hat AI, Trusted Artifact Signer</title>
+      <link>http://localhost:1313/blog/posts/2025-03-21-news/</link>
+      <pubDate>Wed, 19 Mar 2025 16:26:09 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-03-21-news/</guid>
+      <description>&lt;h1 id=&#34;cw12&#34;&gt;CW12&lt;/h1&gt;
+&lt;h2 id=&#34;quarkus-meetup-next-week&#34;&gt;Quarkus Meetup next week&lt;/h2&gt;
+&lt;p&gt;Next week I will talk at the Quarkus Meetup in Frankfurt. &lt;a href=&#34;https://www.meetup.com/quarkus-user-group-frankfurt/events/306786122/?slug=quarkus-user-group-frankfurt&amp;amp;eventId=304302196&#34;&gt;If you want to attend, here&amp;rsquo;s the registration link.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It will take place at CodeCentric, a place where we have already held the Quarkus Meetup Frankfurt and had a good time. My topics will be Konveyor and a little bit of the currently developed Konveyor AI. In general we will see how to easily migrate a Java Application to Quarkus with static code analysis and guidance. And discuss what the roadmap is and where the journey goes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW11 - Agentic AI &amp; MCP</title>
+      <link>http://localhost:1313/blog/posts/2025-03-14-news/</link>
+      <pubDate>Wed, 19 Mar 2025 16:25:35 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-03-14-news/</guid>
+      <description>&lt;h1 id=&#34;cw11&#34;&gt;CW11&lt;/h1&gt;
+&lt;h2 id=&#34;agentic-ai--mcp&#34;&gt;Agentic AI &amp;amp; MCP&lt;/h2&gt;
+&lt;p&gt;So that week I was in munich and worked with a colleague on the topics Agentic AI and MCP. Mostly we did research and didn&amp;rsquo;t create own things. Goal was to gain so much knowledge in that topics to be able to talk with people about that.&lt;/p&gt;
+&lt;p&gt;I will publish an article when I&amp;rsquo;m ready and had the time to pipeline my thoughts, but here&amp;rsquo;s a short journey through these topics:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW10 - Prep research topics</title>
+      <link>http://localhost:1313/blog/posts/2025-03-07-news/</link>
+      <pubDate>Wed, 19 Mar 2025 16:24:57 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-03-07-news/</guid>
+      <description>&lt;h1 id=&#34;cw10&#34;&gt;CW10&lt;/h1&gt;
+&lt;h2 id=&#34;research-topic-agentic-ai--mcp-preparations&#34;&gt;Research topic: Agentic AI &amp;amp; MCP preparations&lt;/h2&gt;
+&lt;p&gt;The source of all motivation is curiosity. That&amp;rsquo;s why, together with a colleague, I&amp;rsquo;ve decided to take two topics that I know little about so far but think will be very important in the future and block them out as research topics for next week.&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;m going to lock myself away somewhere with my colleague and work on the topic until we think we know enough to share our knowledge. Or we get other tasks that require more of our attention.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW9 - GitOps mult-cloud namespace scoped, Kafka Discussions</title>
+      <link>http://localhost:1313/blog/posts/2025-02-28-news/</link>
+      <pubDate>Mon, 03 Mar 2025 10:45:18 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-02-28-news/</guid>
+      <description>&lt;h1 id=&#34;cw9&#34;&gt;CW9&lt;/h1&gt;
+&lt;h2 id=&#34;gitops-mult-cloud-namespace-scoped&#34;&gt;GitOps mult-cloud namespace scoped&lt;/h2&gt;
+&lt;p&gt;My usual tasks include giving presentations and workshops to customers on middleware topics.
+One of my favorite topics is GitOps, for which I have also created my own demos.
+Here at Red Hat there is a very nice demo that I used as a basis, &lt;a href=&#34;https://github.com/redhat-developer-demos/quinoa-wind-turbine&#34;&gt;the quinoa wind turbine race&lt;/a&gt; which was created by my colleague Kevin Dubois. To learn Gitops I worked through two free downloadable ebooks, the two here:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW8 - Camel K deprecation</title>
+      <link>http://localhost:1313/blog/posts/2025-02-21-news/</link>
+      <pubDate>Thu, 20 Feb 2025 10:27:45 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-02-21-news/</guid>
+      <description>&lt;h2 id=&#34;cw8&#34;&gt;CW8&lt;/h2&gt;
+&lt;p&gt;In that week I had much customer conversations, but not much really interesting news to post here. Except the Camel K deprecation statements and some things I would like to add.&lt;/p&gt;
+&lt;h3 id=&#34;camel-k-deprecation-red-hats-build-of-apache-camel-4&#34;&gt;Camel K deprecation, Red Hat&amp;rsquo;s build of Apache Camel 4&lt;/h3&gt;
+&lt;p&gt;A customer had some questions about the deprecation of Red Hat&amp;rsquo;s Camel K and the plans for Red Hat&amp;rsquo;s build of Apache Camel 4.
+For over six years, Camel K has pioneered cloud-native, low-code, and managed integration services. Recently, many of Camel K’s capabilities have been standardized and integrated into Camel Core. That&amp;rsquo;s just the way Red Hat does things, we want the innovation that comes from our own downstream projects (which often comes from customer requests) to also flow into the upstream community projects. This allows all Camel customers to benefit from cloud-native advancements.
+Kaoto is of course still supported and has only received some mixed messages regarding internal interaction with Camel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW7 - GitOps ApplicationSet on multiple clusters</title>
+      <link>http://localhost:1313/blog/posts/2025-02-14-news/</link>
+      <pubDate>Thu, 20 Feb 2025 10:12:45 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-02-14-news/</guid>
+      <description>&lt;h2 id=&#34;cw7&#34;&gt;CW7&lt;/h2&gt;
+&lt;p&gt;Got an interesting customer question about their deployment topology.&lt;/p&gt;
+&lt;h3 id=&#34;wip-gitops-with-applicationset-on-multiple-clusters---namespace-permission-only&#34;&gt;WIP GitOps with ApplicationSet on multiple clusters - namespace permission only&lt;/h3&gt;
+&lt;p&gt;In general, for deploymets I use my GitOps demo which I created with learnings I got from our two gitops books&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.redhat.com/e-books/path-gitops&#34;&gt;The path to GitOps by Christian Hernandez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.redhat.com/e-books/gitops-cookbook&#34;&gt;GitOps Cookbook by Alex Soto Bueno and Natale Vinto&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Manifest repository: &lt;a href=&#34;https://github.com/gmodzelewski/quinoa-wind-turbine-manifests&#34;&gt;https://github.com/gmodzelewski/quinoa-wind-turbine-manifests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code repository: &lt;a href=&#34;https://github.com/gmodzelewski/quinoa-wind-turbine&#34;&gt;https://github.com/gmodzelewski/quinoa-wind-turbine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The new use case is: The customer has 35 OpenShift clusters and each of their customers (= for simplicity I will call them users) only has administrative rights on a namespace. No admin rights on clusters at all.
+Now the users have a software which they want to deploy not on one but on all of the 35 clusters. This is a very tedious task and troublesome to do. Cah GitOps help? Of course!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW6 - Quarkus News</title>
+      <link>http://localhost:1313/blog/posts/2025-02-07-news/</link>
+      <pubDate>Thu, 20 Feb 2025 10:06:58 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-02-07-news/</guid>
+      <description>&lt;h2 id=&#34;cw6&#34;&gt;CW6&lt;/h2&gt;
+&lt;p&gt;In that week I presented some insights at the Volkswagen Stammtisch, an internal developer weekly meeting to share knowledge. Super cool idea frm Volkswagen to have something like that in the company and I was honored to do so. The content of my slides is already shared in that blog, so I don&amp;rsquo;t have anything to add.&lt;/p&gt;
+&lt;p&gt;Other topics I did in that week were business usual, except one thing which is really worth mentioning, the learnings from the Quarkus Atomic Cafe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW5 - Red Hat Streams for Apache Kafka, Spring Boot Heapdump example</title>
       <link>http://localhost:1313/blog/posts/2025-01-31-news/</link>
       <pubDate>Tue, 28 Jan 2025 14:30:11 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-31-news/</guid>
-      <description>&lt;h3 id=&#34;working-topics&#34;&gt;Working topics&lt;/h3&gt;
-&lt;h4 id=&#34;logging-quarkus-in-loki&#34;&gt;logging quarkus in loki&lt;/h4&gt;
-&lt;h3 id=&#34;openshift-ai-bei-zf&#34;&gt;openshift ai bei zf&lt;/h3&gt;
-&lt;h3 id=&#34;licensing-feature&#34;&gt;licensing feature&lt;/h3&gt;</description>
+      <description>&lt;h2 id=&#34;cw5&#34;&gt;CW5&lt;/h2&gt;
+&lt;h3 id=&#34;red-hat-streams-for-apache-kafka-qa-follow-up&#34;&gt;Red Hat Streams for Apache Kafka Q&amp;amp;A follow-up&lt;/h3&gt;
+&lt;p&gt;Following on from last week&amp;rsquo;s blog post I got more interesting questions to our product Red Hat Streams for Apache Kafka and more answers I would like to share.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Is there a recommended way to use mTLS with custom/own certificates?&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;We have a lot of docs for that, &lt;a href=&#34;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/2.8/html/deploying_and_managing_streams_for_apache_kafka_on_openshift/assembly-securing-access-str#con-mutual-tls-authentication-str&#34;&gt;for example here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Best way is to &lt;a href=&#34;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/2.8/html/deploying_and_managing_streams_for_apache_kafka_on_openshift/assembly-securing-access-str#mtls_authentication_using_a_certificate_issued_outside_the_user_operator&#34;&gt;link tls external as described here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;It is NOT recommended to use own CAs to generate the certificate for the internal Kafka communication. The management is cumbersome and if you forget to update the certificates the whole kafka stops working!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;What is the best way to update client certificates?&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Use a GitOps approach, don&amp;rsquo;t overcomplicate things&lt;/li&gt;
+&lt;li&gt;if you have other deployments/tools that needs certificates to be updated, embed this additional tool into the existing workflow&lt;/li&gt;
+&lt;li&gt;documentation: &lt;a href=&#34;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/2.8/html/deploying_and_managing_streams_for_apache_kafka_on_openshift/security-str#clients_ca_secrets&#34;&gt;https://docs.redhat.com/en/documentation/red_hat_streams_for_apache_kafka/2.8/html/deploying_and_managing_streams_for_apache_kafka_on_openshift/security-str#clients_ca_secrets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Is there a recommended integrated schema registry?&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;In our Application Foundation Bundle we have the product named Apicurio. The goal is to not include the schema registry somehow in the kafka but have it deployed separately.&lt;/li&gt;
+&lt;li&gt;Supports Avro Schemas and authentication flows&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Red-Hat-EMEA-SSA-AppDev-Team/amq-streams-demo&#34;&gt;Super good example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;What the plans are for Apache Flink&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Flink is on the Roadmap and is currently evaluated (intern Link): &lt;a href=&#34;https://docs.google.com/presentation/d/1UHT8waGXLi6fWzEVlD2yNq1VJsXjzrnOinaZ1xaiJjY/edit#slide=id.g2f32fcd8b8f_0_15&#34;&gt;https://docs.google.com/presentation/d/1UHT8waGXLi6fWzEVlD2yNq1VJsXjzrnOinaZ1xaiJjY/edit#slide=id.g2f32fcd8b8f_0_15&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;spring-boot-example-deployment-with-heapdump-and-mta-custom-rule&#34;&gt;Spring Boot example deployment with heapdump and MTA custom rule&lt;/h3&gt;
+&lt;p&gt;If you are more interested into the Volksdaten von Volkswagen topic, I created a small spring heapdump application and a custom rule for Migration Toolkit for Applications that checks explicitly for that. The code for the custom rule is located in a folder in the spring heapdump application repo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>News - CW4 - Red Hat Kafka Q&amp;A, Tool recommendations</title>
       <link>http://localhost:1313/blog/posts/2025-01-24-news/</link>
       <pubDate>Mon, 20 Jan 2025 12:01:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-24-news/</guid>
-      <description>&lt;h2 id=&#34;cw3&#34;&gt;CW3&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;cw4&#34;&gt;CW4&lt;/h2&gt;
 &lt;h3 id=&#34;cool-developer-hub-blog-post&#34;&gt;Cool Developer Hub Blog Post&lt;/h3&gt;
 &lt;p&gt;There&amp;rsquo;s a new cool blog post on how to get Developer Hub running, which explains a lot of the interanals as well as the usage in a short and easy way (with solutions!):\n
 &lt;a href=&#34;https://blog.jromanmartin.io/rhdh-adventure/rhdh-adventure/index.html&#34;&gt;https://blog.jromanmartin.io/rhdh-adventure/rhdh-adventure/index.html&lt;/a&gt;&lt;/p&gt;
@@ -47,8 +158,8 @@
       <guid>http://localhost:1313/blog/posts/2025-01-09-news/</guid>
       <description>&lt;h2 id=&#34;cw2&#34;&gt;CW2&lt;/h2&gt;
 &lt;h3 id=&#34;things-to-add-to-cw1-2025---volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Things to add to CW1 2025 - Volkswagen data leak @38c3 2024 - Quarkus, Connectivity Link, ACS&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/blog/posts/2025-01-03-news/#volksdaten&#34;&gt;Link to previous article&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Again, here is the recording from the 28c3 (in German): &lt;a href=&#34;https://streaming.media.ccc.de/38c3/relive/598&#34;&gt;https://streaming.media.ccc.de/38c3/relive/598&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/posts/2025-01-03-news/#volksdaten&#34;&gt;Link to previous article&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://streaming.media.ccc.de/38c3/relive/598&#34;&gt;Again, here is the recording from the 28c3 (in German)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A Red Hat colleague pointed out to me that in addition to the heap dump, there was another reason for the data leak at Volkswagen, namely the identity provider.&lt;/p&gt;
 &lt;p&gt;We don&amp;rsquo;t know exactly which one was used, so we took the use case and looked at whether it would also be possible with our product &lt;strong&gt;Keycloak&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
