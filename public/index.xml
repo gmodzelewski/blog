@@ -31,7 +31,7 @@
     <item>
       <title>News - CW10 - Prep research topics</title>
       <link>http://localhost:1313/blog/posts/2025-03-07-news/</link>
-      <pubDate>Wed, 19 Mar 2025 16:24:57 +0100</pubDate>
+      <pubDate>Fri, 07 Mar 2025 16:24:57 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-03-07-news/</guid>
       <description>&lt;h1 id=&#34;cw10&#34;&gt;CW10&lt;/h1&gt;
 &lt;h2 id=&#34;research-topic-agentic-ai--mcp-preparations&#34;&gt;Research topic: Agentic AI &amp;amp; MCP preparations&lt;/h2&gt;
@@ -41,7 +41,7 @@
     <item>
       <title>News - CW9 - GitOps mult-cloud namespace scoped, Kafka Discussions</title>
       <link>http://localhost:1313/blog/posts/2025-02-28-news/</link>
-      <pubDate>Mon, 03 Mar 2025 10:45:18 +0100</pubDate>
+      <pubDate>Fri, 28 Feb 2025 10:45:18 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-02-28-news/</guid>
       <description>&lt;h1 id=&#34;cw9&#34;&gt;CW9&lt;/h1&gt;
 &lt;h2 id=&#34;gitops-mult-cloud-namespace-scoped&#34;&gt;GitOps mult-cloud namespace scoped&lt;/h2&gt;
@@ -64,7 +64,7 @@ Kaoto is of course still supported and has only received some mixed messages reg
     <item>
       <title>News - CW7 - GitOps ApplicationSet on multiple clusters</title>
       <link>http://localhost:1313/blog/posts/2025-02-14-news/</link>
-      <pubDate>Thu, 20 Feb 2025 10:12:45 +0100</pubDate>
+      <pubDate>Fri, 14 Feb 2025 10:12:45 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-02-14-news/</guid>
       <description>&lt;h2 id=&#34;cw7&#34;&gt;CW7&lt;/h2&gt;
 &lt;p&gt;Got an interesting customer question about their deployment topology.&lt;/p&gt;
@@ -84,7 +84,7 @@ Now the users have a software which they want to deploy not on one but on all of
     <item>
       <title>News - CW6 - Quarkus News</title>
       <link>http://localhost:1313/blog/posts/2025-02-07-news/</link>
-      <pubDate>Thu, 20 Feb 2025 10:06:58 +0100</pubDate>
+      <pubDate>Fri, 07 Feb 2025 10:06:58 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-02-07-news/</guid>
       <description>&lt;h2 id=&#34;cw6&#34;&gt;CW6&lt;/h2&gt;
 &lt;p&gt;In that week I presented some insights at the Volkswagen Stammtisch, an internal developer weekly meeting to share knowledge. Super cool idea frm Volkswagen to have something like that in the company and I was honored to do so. The content of my slides is already shared in that blog, so I don&amp;rsquo;t have anything to add.&lt;/p&gt;
