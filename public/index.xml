@@ -6,8 +6,21 @@
     <description>Recent content on Georg&#39;s OpenShift AppDev Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Mar 2025 16:26:09 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 17:13:14 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News - CW13 - </title>
+      <link>http://localhost:1313/blog/posts/2025-03-28-news/</link>
+      <pubDate>Fri, 21 Mar 2025 17:13:14 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-03-28-news/</guid>
+      <description>&lt;h1 id=&#34;cw13---quarkus-meetup-frankfurt&#34;&gt;CW13 - Quarkus Meetup Frankfurt&lt;/h1&gt;
+&lt;h2 id=&#34;quarkus-meetup-frankfurt-recap&#34;&gt;Quarkus Meetup Frankfurt recap&lt;/h2&gt;
+&lt;p&gt;It was nice. Good reviews. Unfortunately, few people. We need to do more marketing.&lt;/p&gt;
+&lt;p&gt;The main topic was migration to Quarkus and the Konveyor project.&lt;/p&gt;
+&lt;iframe src=&#34;https://docs.google.com/presentation/d/1kfA-WHY_fvz3kDM1yYvoUeQo-ZR5W0wVGht4SvJvpBM/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=100% height=&#34;400&#34; frameborder=&#34;0&#34; scrolling=&#34;auto&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;For the second talk, I talked about Agentic AI: Why it exists, what it&amp;rsquo;s supposed to solve, and a bit about the implementation in Quarkus. &lt;a href=&#34;https://github.com/mariofusco/quarkus-agentic-ai&#34;&gt;There&amp;rsquo;s a very good GitHub repo that explains this, by my colleague Mario Fusco&lt;/a&gt;. Everything is linked in the slides.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>News - CW12 - Quarkus Meetup next week, Neural Magic and Red Hat AI, Trusted Artifact Signer</title>
       <link>http://localhost:1313/blog/posts/2025-03-21-news/</link>
