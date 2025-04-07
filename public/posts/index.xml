@@ -6,26 +6,39 @@
     <description>Recent content in Posts on Georg&#39;s OpenShift AppDev Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Mar 2025 17:13:14 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 13:36:45 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>News - CW13 - </title>
+      <title>News - CW14 - Team meetings, OpenShift AI PoCs, Monitor LLMs, ModelCar, Validated Pattern Industrial Edge</title>
+      <link>http://localhost:1313/blog/posts/2025-04-04-news/</link>
+      <pubDate>Mon, 07 Apr 2025 13:36:45 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/2025-04-04-news/</guid>
+      <description>&lt;h1 id=&#34;team-meetings&#34;&gt;Team meetings&lt;/h1&gt;
+&lt;p&gt;this week I had a lot of in-person team meetings (Volkswagen &amp;amp; BWM, Manufacturing and Enterprise) and a lot of talks. I also presented my Agentic AI and Konveyor AI Slides from last week and we had several discussions. It&amp;rsquo;s always interesting when many Red Hatters come together and learn how different people in different positions see things from their perspectives.&lt;/p&gt;
+&lt;h1 id=&#34;openshift-ai-proof-of-concept&#34;&gt;OpenShift AI Proof of Concept&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m participating in two proof of concepts from the manufacturing industry, both different for different reasons.
+One is an OpenShift PoC without GPUs (although GPUs are available in general) and is intended to explore the extent to which this might still make sense on a production line.
+The other is about replacing and standardizing existing ClearML workflows while avoiding vendor lock-in and deploy also on a production line on lower-performance computers.
+Both aim to be more independent in terms of deployment in the hyperscalers&amp;rsquo; clouds, deploying their models both on-premises and across multiple clouds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News - CW13 - Quarkus Meetup Frankfurt</title>
       <link>http://localhost:1313/blog/posts/2025-03-28-news/</link>
       <pubDate>Fri, 21 Mar 2025 17:13:14 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-03-28-news/</guid>
-      <description>&lt;h1 id=&#34;cw13&#34;&gt;CW13&lt;/h1&gt;
-&lt;h2 id=&#34;quarkus-meetup-frankfurt-recap&#34;&gt;Quarkus Meetup Frankfurt recap&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;quarkus-meetup-frankfurt-recap&#34;&gt;Quarkus Meetup Frankfurt recap&lt;/h1&gt;
 &lt;p&gt;It was nice. Good reviews. Unfortunately, few people. We need to do more marketing.&lt;/p&gt;
 &lt;p&gt;The main topic was migration to Quarkus and the Konveyor project.&lt;/p&gt;
-&lt;p&gt;For the second talk, I talked about Agentic AI: why it exists, what it&amp;rsquo;s supposed to solve, and a bit about the implementation in Quarkus. There&amp;rsquo;s a very good GitHub repo that explains this. Everything is linked in the slides.&lt;/p&gt;</description>
+&lt;iframe src=&#34;https://docs.google.com/presentation/d/1kfA-WHY_fvz3kDM1yYvoUeQo-ZR5W0wVGht4SvJvpBM/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; width=100% height=&#34;400&#34; frameborder=&#34;0&#34; scrolling=&#34;auto&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;For the second talk, I talked about Agentic AI: Why it exists, what it&amp;rsquo;s supposed to solve, and a bit about the implementation in Quarkus. &lt;a href=&#34;https://github.com/mariofusco/quarkus-agentic-ai&#34;&gt;There&amp;rsquo;s a very good GitHub repo that explains this, by my colleague Mario Fusco&lt;/a&gt;. Everything is linked in the slides.&lt;/p&gt;</description>
     </item>
     <item>
       <title>News - CW12 - Quarkus Meetup next week, Neural Magic and Red Hat AI, Trusted Artifact Signer</title>
       <link>http://localhost:1313/blog/posts/2025-03-21-news/</link>
       <pubDate>Wed, 19 Mar 2025 16:26:09 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-03-21-news/</guid>
-      <description>&lt;h1 id=&#34;cw12&#34;&gt;CW12&lt;/h1&gt;
-&lt;h2 id=&#34;quarkus-meetup-next-week&#34;&gt;Quarkus Meetup next week&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;quarkus-meetup-next-week&#34;&gt;Quarkus Meetup next week&lt;/h1&gt;
 &lt;p&gt;Next week I will talk at the Quarkus Meetup in Frankfurt. &lt;a href=&#34;https://www.meetup.com/quarkus-user-group-frankfurt/events/306786122/?slug=quarkus-user-group-frankfurt&amp;amp;eventId=304302196&#34;&gt;If you want to attend, here&amp;rsquo;s the registration link.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It will take place at CodeCentric, a place where we have already held the Quarkus Meetup Frankfurt and had a good time. My topics will be Konveyor and a little bit of the currently developed Konveyor AI. In general we will see how to easily migrate a Java Application to Quarkus with static code analysis and guidance. And discuss what the roadmap is and where the journey goes.&lt;/p&gt;</description>
     </item>
@@ -34,8 +47,7 @@
       <link>http://localhost:1313/blog/posts/2025-03-14-news/</link>
       <pubDate>Fri, 14 Mar 2025 16:25:35 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-03-14-news/</guid>
-      <description>&lt;h1 id=&#34;cw11&#34;&gt;CW11&lt;/h1&gt;
-&lt;h2 id=&#34;agentic-ai--mcp&#34;&gt;Agentic AI &amp;amp; MCP&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;agentic-ai--mcp&#34;&gt;Agentic AI &amp;amp; MCP&lt;/h1&gt;
 &lt;p&gt;So that week I was in munich and worked with a colleague on the topics Agentic AI and MCP. Mostly we did research and didn&amp;rsquo;t create own things. Goal was to gain so much knowledge in that topics to be able to talk with people about that.&lt;/p&gt;
 &lt;p&gt;I will publish an article when I&amp;rsquo;m ready and had the time to pipeline my thoughts, but here&amp;rsquo;s a short journey through these topics:&lt;/p&gt;</description>
     </item>
@@ -44,8 +56,7 @@
       <link>http://localhost:1313/blog/posts/2025-03-07-news/</link>
       <pubDate>Fri, 07 Mar 2025 16:24:57 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-03-07-news/</guid>
-      <description>&lt;h1 id=&#34;cw10&#34;&gt;CW10&lt;/h1&gt;
-&lt;h2 id=&#34;research-topic-agentic-ai--mcp-preparations&#34;&gt;Research topic: Agentic AI &amp;amp; MCP preparations&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;research-topic-agentic-ai--mcp-preparations&#34;&gt;Research topic: Agentic AI &amp;amp; MCP preparations&lt;/h1&gt;
 &lt;p&gt;The source of all motivation is curiosity. That&amp;rsquo;s why, together with a colleague, I&amp;rsquo;ve decided to take two topics that I know little about so far but think will be very important in the future and block them out as research topics for next week.&lt;/p&gt;
 &lt;p&gt;So I&amp;rsquo;m going to lock myself away somewhere with my colleague and work on the topic until we think we know enough to share our knowledge. Or we get other tasks that require more of our attention.&lt;/p&gt;</description>
     </item>
@@ -54,8 +65,7 @@
       <link>http://localhost:1313/blog/posts/2025-02-28-news/</link>
       <pubDate>Fri, 28 Feb 2025 10:45:18 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-02-28-news/</guid>
-      <description>&lt;h1 id=&#34;cw9&#34;&gt;CW9&lt;/h1&gt;
-&lt;h2 id=&#34;gitops-mult-cloud-namespace-scoped&#34;&gt;GitOps mult-cloud namespace scoped&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;gitops-mult-cloud-namespace-scoped&#34;&gt;GitOps mult-cloud namespace scoped&lt;/h1&gt;
 &lt;p&gt;My usual tasks include giving presentations and workshops to customers on middleware topics.
 One of my favorite topics is GitOps, for which I have also created my own demos.
 Here at Red Hat there is a very nice demo that I used as a basis, &lt;a href=&#34;https://github.com/redhat-developer-demos/quinoa-wind-turbine&#34;&gt;the quinoa wind turbine race&lt;/a&gt; which was created by my colleague Kevin Dubois. To learn Gitops I worked through two free downloadable ebooks, the two here:&lt;/p&gt;</description>
@@ -65,9 +75,8 @@ Here at Red Hat there is a very nice demo that I used as a basis, &lt;a href=&#3
       <link>http://localhost:1313/blog/posts/2025-02-21-news/</link>
       <pubDate>Thu, 20 Feb 2025 10:27:45 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-02-21-news/</guid>
-      <description>&lt;h2 id=&#34;cw8&#34;&gt;CW8&lt;/h2&gt;
-&lt;p&gt;In that week I had much customer conversations, but not much really interesting news to post here. Except the Camel K deprecation statements and some things I would like to add.&lt;/p&gt;
-&lt;h3 id=&#34;camel-k-deprecation-red-hats-build-of-apache-camel-4&#34;&gt;Camel K deprecation, Red Hat&amp;rsquo;s build of Apache Camel 4&lt;/h3&gt;
+      <description>&lt;p&gt;In that week I had much customer conversations, but not much really interesting news to post here. Except the Camel K deprecation statements and some things I would like to add.&lt;/p&gt;
+&lt;h1 id=&#34;camel-k-deprecation-red-hats-build-of-apache-camel-4&#34;&gt;Camel K deprecation, Red Hat&amp;rsquo;s build of Apache Camel 4&lt;/h1&gt;
 &lt;p&gt;A customer had some questions about the deprecation of Red Hat&amp;rsquo;s Camel K and the plans for Red Hat&amp;rsquo;s build of Apache Camel 4.
 For over six years, Camel K has pioneered cloud-native, low-code, and managed integration services. Recently, many of Camel K’s capabilities have been standardized and integrated into Camel Core. That&amp;rsquo;s just the way Red Hat does things, we want the innovation that comes from our own downstream projects (which often comes from customer requests) to also flow into the upstream community projects. This allows all Camel customers to benefit from cloud-native advancements.
 Kaoto is of course still supported and has only received some mixed messages regarding internal interaction with Camel.&lt;/p&gt;</description>
@@ -77,8 +86,7 @@ Kaoto is of course still supported and has only received some mixed messages reg
       <link>http://localhost:1313/blog/posts/2025-02-14-news/</link>
       <pubDate>Fri, 14 Feb 2025 10:12:45 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-02-14-news/</guid>
-      <description>&lt;h2 id=&#34;cw7&#34;&gt;CW7&lt;/h2&gt;
-&lt;p&gt;Got an interesting customer question about their deployment topology.&lt;/p&gt;
+      <description>&lt;p&gt;Got an interesting customer question about their deployment topology.&lt;/p&gt;
 &lt;h3 id=&#34;wip-gitops-with-applicationset-on-multiple-clusters---namespace-permission-only&#34;&gt;WIP GitOps with ApplicationSet on multiple clusters - namespace permission only&lt;/h3&gt;
 &lt;p&gt;In general, for deploymets I use my GitOps demo which I created with learnings I got from our two gitops books&lt;/p&gt;
 &lt;ol&gt;
@@ -97,8 +105,7 @@ Now the users have a software which they want to deploy not on one but on all of
       <link>http://localhost:1313/blog/posts/2025-02-07-news/</link>
       <pubDate>Fri, 07 Feb 2025 10:06:58 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-02-07-news/</guid>
-      <description>&lt;h2 id=&#34;cw6&#34;&gt;CW6&lt;/h2&gt;
-&lt;p&gt;In that week I presented some insights at the Volkswagen Stammtisch, an internal developer weekly meeting to share knowledge. Super cool idea frm Volkswagen to have something like that in the company and I was honored to do so. The content of my slides is already shared in that blog, so I don&amp;rsquo;t have anything to add.&lt;/p&gt;
+      <description>&lt;p&gt;In that week I presented some insights at the Volkswagen Stammtisch, an internal developer weekly meeting to share knowledge. Super cool idea frm Volkswagen to have something like that in the company and I was honored to do so. The content of my slides is already shared in that blog, so I don&amp;rsquo;t have anything to add.&lt;/p&gt;
 &lt;p&gt;Other topics I did in that week were business usual, except one thing which is really worth mentioning, the learnings from the Quarkus Atomic Cafe.&lt;/p&gt;</description>
     </item>
     <item>
@@ -106,8 +113,7 @@ Now the users have a software which they want to deploy not on one but on all of
       <link>http://localhost:1313/blog/posts/2025-01-31-news/</link>
       <pubDate>Tue, 28 Jan 2025 14:30:11 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-31-news/</guid>
-      <description>&lt;h2 id=&#34;cw5&#34;&gt;CW5&lt;/h2&gt;
-&lt;h3 id=&#34;red-hat-streams-for-apache-kafka-qa-follow-up&#34;&gt;Red Hat Streams for Apache Kafka Q&amp;amp;A follow-up&lt;/h3&gt;
+      <description>&lt;h1 id=&#34;red-hat-streams-for-apache-kafka-qa-follow-up&#34;&gt;Red Hat Streams for Apache Kafka Q&amp;amp;A follow-up&lt;/h1&gt;
 &lt;p&gt;Following on from last week&amp;rsquo;s blog post I got more interesting questions to our product Red Hat Streams for Apache Kafka and more answers I would like to share.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Is there a recommended way to use mTLS with custom/own certificates?&lt;/em&gt;
@@ -137,7 +143,7 @@ Now the users have a software which they want to deploy not on one but on all of
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;spring-boot-example-deployment-with-heapdump-and-mta-custom-rule&#34;&gt;Spring Boot example deployment with heapdump and MTA custom rule&lt;/h3&gt;
+&lt;h1 id=&#34;spring-boot-example-deployment-with-heapdump-and-mta-custom-rule&#34;&gt;Spring Boot example deployment with heapdump and MTA custom rule&lt;/h1&gt;
 &lt;p&gt;If you are more interested into the Volksdaten von Volkswagen topic, I created a small spring heapdump application and a custom rule for Migration Toolkit for Applications that checks explicitly for that. The code for the custom rule is located in a folder in the spring heapdump application repo.&lt;/p&gt;</description>
     </item>
     <item>
@@ -145,11 +151,10 @@ Now the users have a software which they want to deploy not on one but on all of
       <link>http://localhost:1313/blog/posts/2025-01-24-news/</link>
       <pubDate>Mon, 20 Jan 2025 12:01:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-24-news/</guid>
-      <description>&lt;h2 id=&#34;cw4&#34;&gt;CW4&lt;/h2&gt;
-&lt;h3 id=&#34;cool-developer-hub-blog-post&#34;&gt;Cool Developer Hub Blog Post&lt;/h3&gt;
+      <description>&lt;h1 id=&#34;cool-developer-hub-blog-post&#34;&gt;Cool Developer Hub Blog Post&lt;/h1&gt;
 &lt;p&gt;There&amp;rsquo;s a new cool blog post on how to get Developer Hub running, which explains a lot of the interanals as well as the usage in a short and easy way (with solutions!):\n
 &lt;a href=&#34;https://blog.jromanmartin.io/rhdh-adventure/rhdh-adventure/index.html&#34;&gt;https://blog.jromanmartin.io/rhdh-adventure/rhdh-adventure/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;red-hat-kafka-qa&#34;&gt;Red Hat Kafka Q&amp;amp;A&lt;/h3&gt;
+&lt;h1 id=&#34;red-hat-kafka-qa&#34;&gt;Red Hat Kafka Q&amp;amp;A&lt;/h1&gt;
 &lt;p&gt;Recently I attended a meeting with a customer about Red Hat Kafka and some deeper questions came up which I answered and would like to share. Here in short form:&lt;/p&gt;</description>
     </item>
     <item>
@@ -157,8 +162,7 @@ Now the users have a software which they want to deploy not on one but on all of
       <link>http://localhost:1313/blog/posts/2025-01-13-news/</link>
       <pubDate>Mon, 13 Jan 2025 09:28:07 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-13-news/</guid>
-      <description>&lt;h2 id=&#34;cw3&#34;&gt;CW3&lt;/h2&gt;
-&lt;h3 id=&#34;cpu-limits-und-requests-how-to-avoid-cpu-throttling&#34;&gt;CPU limits und requests, how to avoid CPU throttling&lt;/h3&gt;
+      <description>&lt;h1 id=&#34;cpu-limits-und-requests-how-to-avoid-cpu-throttling&#34;&gt;CPU limits und requests, how to avoid CPU throttling&lt;/h1&gt;
 &lt;p&gt;If you look at the usual utilization of a kubernetes cluster, you can quickly see that a lot of resources are idling around. Nevertheless, you may receive a warning that the cluster&amp;rsquo;s resources are at their limit. How does this fit together?&lt;/p&gt;
 &lt;p&gt;The issue is non-optimized resource allocation. Resource limits help with budget control by preventing a single application from consuming more resources than allocated, which is critical in cloud environments where resources translate directly into costs.&lt;/p&gt;</description>
     </item>
@@ -167,8 +171,7 @@ Now the users have a software which they want to deploy not on one but on all of
       <link>http://localhost:1313/blog/posts/2025-01-09-news/</link>
       <pubDate>Thu, 09 Jan 2025 11:00:48 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-09-news/</guid>
-      <description>&lt;h2 id=&#34;cw2&#34;&gt;CW2&lt;/h2&gt;
-&lt;h3 id=&#34;things-to-add-to-cw1-2025---volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Things to add to CW1 2025 - Volkswagen data leak @38c3 2024 - Quarkus, Connectivity Link, ACS&lt;/h3&gt;
+      <description>&lt;h1 id=&#34;things-to-add-to-cw1-2025---volkswagen-data-leak-38c3-2024---quarkus-connectivity-link-acs&#34;&gt;Things to add to CW1 2025 - Volkswagen data leak @38c3 2024 - Quarkus, Connectivity Link, ACS&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/posts/2025-01-03-news/#volksdaten&#34;&gt;Link to previous article&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://streaming.media.ccc.de/38c3/relive/598&#34;&gt;Again, here is the recording from the 28c3 (in German)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A Red Hat colleague pointed out to me that in addition to the heap dump, there was another reason for the data leak at Volkswagen, namely the identity provider.&lt;/p&gt;
@@ -180,8 +183,7 @@ Now the users have a software which they want to deploy not on one but on all of
       <pubDate>Fri, 03 Jan 2025 16:50:30 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/2025-01-03-news/</guid>
       <description>&lt;p&gt;New year new ideas. I thought it would be nice to write down some news I stumble upon and I think are worth sharing. Long story short, lets get to the news.&lt;/p&gt;
-&lt;h2 id=&#34;cw1&#34;&gt;CW1&lt;/h2&gt;
-&lt;h3 id=&#34;red-hat-developer-hub-breaking-changes-dynamic-plugins&#34;&gt;Red Hat Developer Hub breaking changes: dynamic plugins&lt;/h3&gt;
+&lt;h1 id=&#34;red-hat-developer-hub-breaking-changes-dynamic-plugins&#34;&gt;Red Hat Developer Hub breaking changes: dynamic plugins&lt;/h1&gt;
 &lt;p&gt;At the end of the year I saw that my own managed instance of Developer Hub was down. Of course, the culprit were some breaking changes and because I&amp;rsquo;m deploying the bleeding edge latest is greatest version which upgrades automatically.&lt;/p&gt;</description>
     </item>
     <item>
